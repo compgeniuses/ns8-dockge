@@ -1,0 +1,57 @@
+{
+    "error": {
+        "403": "Eragiketa baimendu gabea",
+        "cannot_retrieve_installed_modules": "Ezin dira instalatutako moduluak berreskuratu",
+        "401": "Autentifikazio baliogabea",
+        "cannot_retrieve_module_info": "Ezin da moduluaren informazioa berreskuratu",
+        "generic_error": "Zerbait okertu da",
+        "error": "Errorea",
+        "network_timeout": "Sarearen denbora-muga",
+        "404": "Baliabidea ez da aurkitu",
+        "network_error": "Sare-errorea",
+        "validation_error": "Balioztatze-errorea"
+    },
+    "settings": {
+        "test_field": "Proba-eremua",
+        "configure_instance": "{instance} konfiguratu",
+        "save": "Gorde",
+        "title": "Ezarpenak"
+    },
+    "common": {
+        "required": "Beharrezkoa",
+        "work_in_progress": "Lanak martxan",
+        "processing": "Prozesatzen..."
+    },
+    "status": {
+        "created": "Sortuta",
+        "size": "Tamaina",
+        "name": "Izena",
+        "no_images": "Irudirik ez",
+        "app_volumes": "Aplikazioaren bolumena | Aplikazioen bolumenak",
+        "services": "Zerbitzua | Zerbitzuak",
+        "app_images": "Aplikazioaren irudia | Aplikazioen irudiak",
+        "no_services": "Zerbitzurik ez",
+        "app_instance": "Aplikazioaren instantzia",
+        "mount": "Muntatu",
+        "title": "Egoera",
+        "installation_node": "Instalazio-nodoa",
+        "node": "Nodoa",
+        "no_volumes": "Bolumenik ez"
+    },
+    "about": {
+        "title": "Honi buruz"
+    },
+    "action": {
+        "list-backup-repositories": "Babeskopien biltegiak ikusi",
+        "get-module-info": "Moduluaren informazioa berreskuratu",
+        "list-installed-modules": "Instalatutako moduluak ikusi",
+        "list-backups": "Babeskopiak ikusi",
+        "get-status": "Egoera berreskuratu",
+        "configure-module": "Modulua konfiguratu",
+        "get-configuration": "Konfigurazioa berreskuratu",
+        "get-name": "Izena berreskuratu"
+    },
+    "task": {
+        "cannot_create_task": "Ezin da zeregina {action} sortu"
+    }
+}

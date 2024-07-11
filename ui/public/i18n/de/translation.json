@@ -1,0 +1,57 @@
+{
+    "error": {
+        "403": "Operation nicht zugelassen",
+        "cannot_retrieve_installed_modules": "installierte Module nicht abrufbar",
+        "401": "fehlerhafte Anmeldung",
+        "cannot_retrieve_module_info": "Modulinfo nicht abrufbar",
+        "generic_error": "Etwas ist schief gegangen",
+        "error": "Fehler",
+        "network_timeout": "Netzwerk Timeout",
+        "404": "Ressource nicht gefunden",
+        "network_error": "Netzwerkfehler",
+        "validation_error": "Fehlerhafte Prüfung"
+    },
+    "settings": {
+        "test_field": "Testfeld",
+        "configure_instance": "{instance} konfigurieren",
+        "save": "Speichern",
+        "title": "Einstellungen"
+    },
+    "common": {
+        "required": "erforderlich",
+        "work_in_progress": "In Arbeit",
+        "processing": "Ausführung..."
+    },
+    "status": {
+        "created": "erstellt",
+        "size": "Größe",
+        "name": "Name",
+        "no_images": "Keine Abbilder",
+        "app_volumes": "App Volumen | App Volumen",
+        "services": "Dienst | Dienste",
+        "app_images": "App-Abbild | App-Abbilder",
+        "no_services": "Keine Dienste",
+        "app_instance": "App-Instanz",
+        "mount": "Einbindepunkt",
+        "title": "Status",
+        "installation_node": "Knoten der Installation",
+        "node": "Knoten",
+        "no_volumes": "keine Volumen"
+    },
+    "about": {
+        "title": "Über"
+    },
+    "action": {
+        "list-backup-repositories": "Liste der Datensicherungs-Speicherort",
+        "get-module-info": "Informationen zum Modul abrufen",
+        "list-installed-modules": "installierte Module auflisten",
+        "list-backups": "Datensicherungen auflisten",
+        "get-status": "Status abfragen",
+        "configure-module": "Modul konfigurieren",
+        "get-configuration": "Konfiguration abrufen",
+        "get-name": "Name abrufen"
+    },
+    "task": {
+        "cannot_create_task": "{task} kann nicht erstellt werden"
+    }
+}

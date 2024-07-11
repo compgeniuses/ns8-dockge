@@ -1,0 +1,33 @@
+#!/usr/bin/env python3
+
+#
+# Copyright (C) 2022 Nethesis S.r.l.
+# SPDX-License-Identifier: GPL-3.0-or-later
+#
+
+import json
+import sys
+import agent
+
+# Try to parse the stdin as JSON.
+# If parsing fails, output everything to stderr
+data = json.load(sys.stdin)
+
+#This is specific to you module, so you need to change it accordingly.
+# we read a json stdin {"vars1":true, "var2":"foo", "vars3": 3} and we writ it to .config/state/environment
+# Upper case to set environment variable and minor case to read from stdin
+
+# this values must exists in the json stdin
+# agent.set_env("MAIL_SERVER", data["mail_server"])
+# agent.set_env("LDAP_DOMAIN", data["ldap_domain"])
+
+# you can add default values for the following variables
+# agent.set_env("MAIL_DOMAIN",data.get("mail_domain",""))
+# agent.set_env("WOWORKERSCOUNT",data.get("workers_count",3))
+# agent.set_env("AUXILIARYACCOUNT",data.get("auxiliary_account",True))
+# agent.set_env("ACTIVESYNC",data.get("activesync",False))
+
+
+# Make sure everything is saved inside the environment file
+# just before starting systemd unit
+#agent.dump_env()

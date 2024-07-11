@@ -1,0 +1,35 @@
+{
+    "common": {
+        "required": "Obrigatório",
+        "work_in_progress": "Em progresso",
+        "processing": "Procesando..."
+    },
+    "status": {
+        "services": "Serviço | Serviços",
+        "app_instance": "Instância do aplicativo",
+        "title": "Estado"
+    },
+    "error": {
+        "403": "Operation not authorized",
+        "401": "Invalid authentication",
+        "generic_error": "Something went wrong",
+        "error": "Error",
+        "network_timeout": "Network timeout",
+        "404": "Resource not found",
+        "network_error": "Network error",
+        "validation_error": "Validation error"
+    },
+    "about": {
+        "title": "About"
+    },
+    "action": {
+        "list-backup-repositories": "List backup repositories",
+        "list-backups": "List backups"
+    },
+    "task": {
+        "cannot_create_task": "Cannot create task {action}"
+    },
+    "settings": {
+        "title": "Settings"
+    }
+}

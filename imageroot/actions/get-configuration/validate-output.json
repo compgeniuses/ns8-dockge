@@ -1,0 +1,36 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Get kickstart settings",
+    "$id": "http://nethserver.org/json-schema/task/input/kickstart/get-configuration",
+    "description": "Get kickstart settings",
+    "examples": [
+        {
+            "host": "kickstart.domain.org",
+            "http2https": true,
+            "lets_encrypt": true
+        }
+    ],
+    "type": "object",
+    "required": [
+        "host",
+        "http2https",
+        "lets_encrypt"
+    ],
+    "properties": {
+        "host": {
+            "type": "string",
+            "description": "Host name for the application, like 'kickstart.domain.org'",
+            "format": "idn-hostname"
+        },
+        "lets_encrypt": {
+            "type": "boolean",
+            "title": "Let's Encrypt certificate",
+            "description": "Request a valid Let's Encrypt certificate."
+        },
+        "http2https": {
+            "type": "boolean",
+            "title": "HTTP to HTTPS redirection",
+            "description": "Redirect all the HTTP requests to HTTPS"
+        }
+    }
+}
